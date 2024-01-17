@@ -1,0 +1,8 @@
+.list-wrapper {
+  list-style: none;
+}
+
+.login-options-list {
+  background-color: white;
+  max-width: min-content;
+}
