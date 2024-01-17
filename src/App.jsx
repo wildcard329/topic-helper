@@ -3,8 +3,10 @@ import { Layout } from './components/layout'
 import AppRouter from './AppRouter'
 
 const App = () => 
-  <Layout>
-    <AppRouter />
-  </Layout>
+  <div className='application-wrapper'>
+    <Layout>
+      <AppRouter />
+    </Layout>
+  </div>
 
 export default App

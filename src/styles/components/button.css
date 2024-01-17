@@ -1,0 +1,14 @@
+.login-btn {
+  padding: 0.5rem 2rem;
+  text-transform: capitalize;
+  background-color: white;
+  color: black;
+  width: 100%;
+  max-width: 20rem;
+  border-top: thin solid gray;
+  border-left: thin solid gray;
+  border-right: thin solid black;
+  border-bottom: thin solid black;
+  white-space: nowrap;
+  text-align: left;
+}
