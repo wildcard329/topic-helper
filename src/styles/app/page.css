@@ -1,3 +1,11 @@
 .page-wrapper {
   padding: 2rem;
 }
+
+#home-wrapper {
+  background-image: url("../../assets/images/chart_asset.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-blend-mode: multiply;
+}

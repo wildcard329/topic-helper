@@ -10,8 +10,10 @@ const LoginButton = ({ loginEntity }) =>
     btnType={"button"}
     btnVar={"outlined"}
   >
-    <MaterialIcon iconLbl={loginEntity} />
-    {`log in with ${loginEntity}`}
+    <div className="align-left">
+      <MaterialIcon iconLbl={loginEntity} />
+      {`log in with ${loginEntity}`}
+    </div>
   </AppButton>
 
 export default LoginButton

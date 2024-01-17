@@ -1,7 +1,9 @@
 import { LoginButton } from "../components/button"
 
 const Home = () => 
-  <div className="page-wrapper">
+  // temporary link
+  <a href="/topics">
+  <div className="page-wrapper" id="home-wrapper">
     <h1 className="title-wrapper">Welcome to Topic Helper!</h1>
     <div className="login-wrapper">
       <h3 className="title-wrapper">Please log in to continue.</h3>
@@ -13,5 +15,7 @@ const Home = () =>
       </ul>
     </div>
   </div>
+  {/* temporory link */}
+  </a>
 
 export default Home
