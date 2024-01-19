@@ -3,6 +3,17 @@
 }
 
 .login-options-list {
-  background-color: white;
+  background-color: var(--light);
   max-width: min-content;
+}
+
+.topics-list {
+  background-color: var(--dark);
+  height: 100%;
+  width: 50%;
+  overflow: auto;
+  border-top: var(--light);
+  border-left: var(--light);
+  border-bottom: var(--darkVariant);
+  border-right: var(--darkVariant);
 }

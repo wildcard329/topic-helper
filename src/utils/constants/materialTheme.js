@@ -1,10 +1,24 @@
+import { colorTheme } from "./colorTheme"
+
 export const theme = {
   palette: {
     primary: {
-      main: "#000"
+      main: colorTheme.primary,
     },
     secondary: {
-      main: "#228B22"
+      main: colorTheme.secondary,
+    },
+    primaryVariant: {
+      main: colorTheme.primaryVariant,
+    },
+    secondaryVariant: {
+      main: colorTheme.secondaryVariant,
+    },
+    light: {
+      main: colorTheme.light,
+    },
+    dark: {
+      main: colorTheme.dark,
     },
     accent: {
       main: "#335c67"

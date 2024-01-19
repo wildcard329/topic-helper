@@ -1,7 +1,7 @@
 .application-wrapper {
   color: var(--color1);
-  min-height: 100vh;
   position: relative;
+  height: 100vh;
 }
 
 .login-wrapper {
@@ -19,18 +19,24 @@
 .application-header {
   border-bottom: thin solid var(--color1);
   padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .application-footer {
-  position: absolute;
-  bottom: 0;
   text-align: center;
   padding: 0.5rem 2rem;
   background-color: var(--color1);
   width: 100%;
-  color: white;
+  color: var(--light);
 }
 
 .title-wrapper {
   padding-bottom: 1rem;
+}
+
+#nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
