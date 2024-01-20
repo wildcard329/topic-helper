@@ -1,15 +1,14 @@
 .application-wrapper {
   color: var(--color1);
-  position: relative;
-  height: 100vh;
+  min-height: 100%;
 }
 
 .login-wrapper {
   background-color: var(--color3);
-  color: var(--color4 );
+  color: var(--color4);
   width: 40%;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
@@ -29,6 +28,11 @@
   background-color: var(--color1);
   width: 100%;
   color: var(--light);
+}
+
+.layout {
+  min-height: 89vh;
+  width: 100%;
 }
 
 .title-wrapper {
