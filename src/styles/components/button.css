@@ -22,3 +22,10 @@
 .action-btn {
   background-color: var(--light);
 }
+
+.icon-btn {
+  width: 100px;
+  height: 100px;
+  padding: 2rem;
+  text-align: center;
+}
